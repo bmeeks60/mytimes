@@ -1,4 +1,16 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
 
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
 
 header {
   display: flex;
@@ -11,6 +23,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  background-color: white;
 }
 
 header nav {
@@ -36,6 +49,111 @@ a {
 .logo img {
   margin-right: 12px;
 }
-div {
-  border: 1px solid black;
+
+.narrative {
+  margin-top: 16px;
+  font-size: 17px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.cat {
+  background-image: url(../images/img-cat.png);
+}
+
+.column.large {
+  width: 630px;
+}
+
+.fall {
+  background-image: url(../images/img-fall.png);
+}
+
+.camera {
+  background-image: url(../images/img-camera.png);
+}
+
+.top-story .img-content {
+  background-image: url(../images/img-story-main.png);
+  font-size: 40px;
+  text-align: left;
+  margin-top: 0;
+  justify-content: flex-start;
+}
+
+.top-story .img-content span {
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.secondary-stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.secondary-stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+img .cookie {
+  height: 240px;
+}
+
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+  color: dimgray;
+}
+
+.news-bites h3 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bite span {
+  padding-left: 11px;
 }
