@@ -84,7 +84,6 @@ a {
   font-size: 40px;
   text-align: left;
   margin-top: 0;
-  justify-content: flex-start;
 }
 
 .top-story .img-content span {
@@ -156,4 +155,32 @@ img .cookie {
 
 .bite span {
   padding-left: 11px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
